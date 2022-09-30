@@ -1,0 +1,879 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 320px;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  text-align: center;
+  &__only {
+    padding-top: 95px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
+  &__button {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+   
+    &__text {
+      color: white;
+      padding-top: 10px;
+
+     
+      
+      &__first {
+        appearance: none;
+        border: 2px solid white;
+        border-radius: 20px;
+        background: none;
+        color: #fff;
+        padding: 8px 16px;
+        font-size: 16px;
+        width: 95px;
+        height: 35px;
+      }
+    }
+  }
+}
+
+.header {
+  background-image: url(../img/Bitmap.png);
+  overflow: hidden;
+  background-position: center;
+  height: 540px;
+  width: 320px;
+  background-color: brown;
+  &__text {
+    &__main {
+      color: #fff;
+      font-size: 30px;
+      font-weight: 700;
+      text-align: center;
+      font-family: "Montserrat";
+    }
+    &__onlytext {
+      margin: 5px 0 10px 30px;
+      padding: 0 10px;
+      text-align: center;
+      width: 280px;
+      color: #f7f3f2;
+      font-size: 18px;
+      font-weight: 300;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+    &__box__button {
+      appearance: none;
+      width: 280px;
+      height: 40px;
+      border: 0;
+      margin: 5px 5px auto 30px;
+      border-radius: 20px;
+      background: #ff4e50;
+      color: #fff;
+      padding: 8px 16px;
+      font-size: 16px;
+    }
+  }
+}
+.works {
+  margin-top: 35px;
+  &__header {
+    font-family: "Montserrat";
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  &__first {
+    background-image: url(../img/Works_first.png);
+    overflow: hidden;
+    background-position: center;
+    width: 300px;
+    height: 240px;
+    &__button {
+      appearance: none;
+      width: 70px;
+      height: 20px;
+      border: 0;
+      margin: 65px auto 15px 20px;
+      border-radius: 20px;
+      background: #ff4e50;
+      color: #fff;
+      letter-spacing: 2px;
+      font-size: 16px;
+    }
+    &__header {
+      font-family: "Montserrat";
+      font-style: normal;
+      width: 250px;
+      height: 60px;
+      margin: 0 30px 10px 20px;
+      font-weight: 700;
+      font-size: 24px;
+      color: #ffffff;
+    }
+    &__text {
+      width: 250px;
+      height: 60px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      color: #e3e3e3;
+      margin: 0 30px 15px 20px;
+      text-align: left;
+    }
+  }
+  &__second {
+    background-image: url(../img/Works_second.png);
+    overflow: hidden;
+    background-position: center;
+    width: 300px;
+    height: 240px;
+    &__button {
+      appearance: none;
+      width: 70px;
+      height: 20px;
+      border: 0;
+      margin: 65px auto 15px 20px;
+      border-radius: 20px;
+      background: #ff4e50;
+      color: #fff;
+      letter-spacing: 2px;
+      font-size: 16px;
+    }
+    &__header {
+      font-family: "Montserrat";
+      font-style: normal;
+      width: 250px;
+      height: 60px;
+      margin: 0 30px 10px 20px;
+      font-weight: 700;
+      font-size: 24px;
+      color: #ffffff;
+    }
+    &__text {
+      width: 250px;
+      height: 60px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      color: #e3e3e3;
+      margin: 0 30px 15px 20px;
+      text-align: left;
+    }
+  }
+  &__htird {
+    background-image: url(../img/Works_third.png);
+    overflow: hidden;
+    background-position: center;
+    width: 300px;
+    height: 240px;
+    &__button {
+      appearance: none;
+      width: 70px;
+      height: 20px;
+      border: 0;
+      margin: 65px auto 15px 20px;
+      border-radius: 20px;
+      background: #ff4e50;
+      color: #fff;
+      letter-spacing: 2px;
+      font-size: 16px;
+    }
+    &__header {
+      font-family: "Montserrat";
+      font-style: normal;
+      width: 250px;
+      height: 60px;
+      margin: 0 30px 10px 20px;
+      font-weight: 700;
+      font-size: 24px;
+      color: #ffffff;
+    }
+    &__text {
+      width: 250px;
+      height: 60px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      color: #e3e3e3;
+      margin: 0 30px 15px 20px;
+      text-align: left;
+    }
+  }
+}
+.music, .shape, .photo, .plane{
+  position: relative;
+  width: 120px;
+  height: 120px;
+
+}
+.music::after{
+  content: url(../img/Music.png);
+  position: absolute;
+  bottom: 0;
+  left: 148px;
+  line-height: 2;
+  background-color: #FF4E50;
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+
+}
+
+.shape::after{
+  content: url(../img/Shape_1.png);
+  position: absolute;
+  bottom: 0;
+  left: 148px;
+  line-height: 1.7;
+  background-color: #19D4CA;
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+
+}
+.photo::after{
+  content: url(../img/Photo.png);
+  position: absolute;
+  bottom: 0;
+  left: 148px;
+  line-height: 1.5;
+  background-color: #FFA710;
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+
+}
+.plane::after{
+  content: url(../img/Plane.png);
+  position: absolute;
+  bottom: 0;
+  left: 148px;
+  line-height: 1.8;
+  background-color: #667DF3;
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+
+}
+.partner {
+  margin-top: 40px;
+  padding: 0 10px;
+  &__header {
+    padding: 0 10px;
+    text-align: center;
+    width: 280px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #444444;
+  }
+
+  &__about {
+    text-align: center;
+    margin-top: 15px;
+    &__box{
+      width: 235px;
+      margin: 0 auto;
+    }
+  
+    &__head {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #444444;
+    }
+    &__text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #666666;
+      margin: 12px auto 15px;
+    }
+
+    &__img {
+      border-radius: 50%;
+      position: absolute;
+    }
+   
+  }
+  &__button {
+    width: 280px;
+    height: 40px;
+    border: 2px solid #ff4e50;
+    margin: 35px 10px;
+    border-radius: 40px;
+    color: #ff4e50;
+    font-size: 14px;
+    font-weight: 700;
+    background: none;
+  }
+}
+.discover{
+    &__head{
+        padding: 0 35px;
+        margin: 0 10px 30px 15px;
+        width: 280px;
+height: 54px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+color: #444444;
+    }
+&__first {
+  width: 300px;
+  &__text{
+   width: 206px;
+height: 54px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+padding: 0 15px;
+text-align: center;
+margin: 30px auto;
+  }
+
+  &__left {
+    background-image: url(../img/Discover_first.png);
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    height: 120px;
+    margin-top: 5px;
+  }
+  &__center {
+    background-image: url(../img/Discover_second.png);
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    height: 120px;
+    margin-top: 5px;
+  }
+  &__right {
+    background-image: url(../img/Discover_third.png);
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    height: 120px;
+    margin-top: 5px;
+  }
+}
+&__second {
+  width: 300px;
+  &__text{
+    width: 206px;
+ height: 54px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 22px;
+ line-height: 27px;
+ text-align: center;
+ color: #FFFFFF;
+ text-align: center;
+ margin: 30px auto;
+   }
+
+  &__left {
+    background-image: url(../img/Discover_four.png);
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    height: 120px;
+    margin-top: 5px;
+  }
+
+  &__right {
+    background-image: url(../img/Discover_five.png);
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    height: 120px;
+    margin-top: 5px;
+  }
+}
+&__third {
+  width: 300px;
+  &__text{
+    width: 226px;
+ height: 54px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 21px;
+ line-height: 27px;
+ text-align: center;
+ color: #FFFFFF;
+  margin: 40px auto;
+   }
+
+  &__left {
+    background-image: url(../img/Discover_six.png);
+       background-position: center;
+       background-color: #666666;
+    overflow: hidden;
+    width: 100%;
+    height: 120px;
+    margin-top: 5px;
+  }
+
+  &__right {
+    background-image: url(../img/Discover_seven.png);
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    height: 120px;
+    margin-top: 5px;
+  }
+}
+}
+.holiday{
+    width: 320px;
+    &__head{ 
+width: 280px;
+height: 54px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+color: #444444;
+margin: 35px 10px 10px;
+padding: 0 15px;
+    }
+    &__text{
+       margin: 0 20px;
+width: 280px;
+height: 24px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 14px;
+text-align: center;
+color: #666666;
+margin-bottom: 30px;
+    }
+    &__box{
+        width: 280px;
+        &__input{
+            height: 40px;
+            width: 280px;
+            margin: 0 20px;
+            font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+color: #999999;
+border: 1px solid #D4D4D4;
+border-radius: 3px;
+
+        }
+        &__button{
+            width: 100%;
+            
+    height: 40px;
+    border: 0;
+    margin: 10px 20px 0;
+    border-radius: 40px;
+    color:#FFFFFF;
+        font-size: 14px;
+    font-weight: 700;
+    background:#FF4E50;
+    ;
+        }
+    }
+}
+.foter{
+    margin-top: 10px;
+    border-top: 2px solid #FF4E50;
+    width: 100%;
+    &__dream{
+        &__head{
+            margin: 15px auto;
+            width: 119px;
+height: 20px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #FF4E50;
+        }
+    }
+    &__company{
+        &__head{
+          
+height: 17px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+text-align: center;
+color: #444444;
+        }
+        &__table{
+            width: 280px;
+            height: 52px;
+            margin: 0 auto;
+            text-align: center;
+            
+
+        }
+        &__list{
+            display: inline-block;
+            font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+text-align: center;
+color: #999999;
+padding-left: 10px;
+        }
+    }
+&__partners{
+    
+      
+height: 17px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+text-align: center;
+color: #444444;
+    
+}
+&__logo{
+    &__head{
+       
+width: 83px;
+height: 12px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+letter-spacing: 1px;
+color: #CCCCCC;
+margin: 0 auto;
+    }
+    &__img{
+        width: 110px;
+        margin: 5px auto;
+    }
+
+}
+}
+@media screen and (min-width: 768px)
+{
+  body, .discover{
+    width: 768px;
+  }
+
+  .header{
+    width: 768px;
+    height: 700px;
+  }
+
+  .logo{
+    flex-direction: inherit;
+    justify-content:space-between;
+    padding: 0 45px;
+    &__only{
+      padding-top: 27px;
+    }
+    &__button{
+      width: 200px;
+    }
+  }
+  .header__text{
+    &__main{
+      margin: 140px auto 0;
+      width: 470px;
+height: 126px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 63px;
+text-align: center;
+    }
+    &__onlytext{
+      width: 396px;
+height: 25px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 24px;
+margin: 25px auto 35px;
+padding: 0;
+
+    }
+    &__box{
+      display: flex;
+      justify-content: center;
+
+    
+    &__box__button{
+      width: 225px;
+    height: 40px;
+    }
+  }
+
+  }
+  .works{
+margin-top: 100px;
+&__tablet{
+  width: 195px;
+}
+&__header{
+  margin-bottom: 35px;
+}
+  
+&__main{
+  display: flex;
+  justify-content: space-evenly;
+  &__conteiner{
+    width: 236px;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+    
+  }
+}
+.partner{
+  width: 492px;
+  margin: 90px auto;
+  &__header{
+    width: 415px;
+    margin: 0 auto;
+  }
+  &__about{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__box{
+    display: flex;
+    justify-content: center;
+  }
+  &__button{
+    margin-top: 40px;
+    width: 180px;
+height: 40px;
+  }
+}
+.discover{
+  &__head{
+    margin: 0 auto 35px;
+    width: 350px;
+    height: 27px;
+    padding: 0;
+  }
+&__first {
+width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  &__text{
+    margin: 120px auto;
+  }
+  &__tablet{
+
+    width: 236px;
+    height: 310px;
+    background-size: cover;
+  }
+}
+&__second{    
+  display: flex;
+  justify-content: space-evenly;
+  width: 768px;
+  align-content: space-between;
+  &__text{
+    margin: 125px auto;
+  }
+  &__left{
+    background-repeat: no-repeat;
+    width: 230px;
+    height: 310px;
+    background-size: cover;
+  }
+  &__right{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 492px;
+    height: 310px;
+
+  }
+
+}
+&__third{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  &__text{
+    margin: 120px auto;
+  }
+  &__left {
+    width: 492px;
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+&__right{
+  width: 236px;
+  height: 310px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  }
+}
+.holiday{
+  margin: 70px auto 0;
+    width: 482px;
+    height: 158px;
+    &__head{
+      width: 300px;
+      height: 27px;
+      margin: 0 auto;
+    }
+    &__text{
+      width: 415px;
+      height: 24px;
+      margin: 45px auto 10px;
+    }
+    &__box{
+      display: flex;
+      width: 482px;
+      justify-content: space-between;
+      &__input{
+        margin: 0 auto;
+      }
+      &__button{
+        width: 172px;
+        margin: 0;
+      }
+    }
+}
+.foter{
+  display: flex;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  justify-content: space-around;
+  &__dream__head{
+    margin: 0 auto;
+  }
+  &__company{
+    display: flex;
+    flex-direction: column;
+    &__head{
+      text-align: left;
+      padding-left: 10px;
+    }
+    &__list{
+      margin-top: 3px;
+      text-align: left;
+    }
+    &__table{
+      display: contents;
+      text-align: left;
+    
+    }
+
+  }
+}
+}
+@media screen and (min-width: 1440px)
+{
+  body, .discover{
+    width: 1440px;
+  }
+  .header{
+    width: 1440px;
+  }
+  .logo {
+      justify-content: space-around;
+    }
+    .works{
+      width: 940px;
+      margin: 90px auto 0;
+      &__main__conteiner{
+        width: 300px;
+      }
+      
+    }
+    .partner{
+      width: 940px;
+      
+      &__about__box {
+        width: 220px;
+      }
+    }
+    .discover {
+      width: 940px;
+      margin: 90px auto 0;
+    
+    &__first__tablet {
+      width: 300px;
+    }
+    &__second {
+      width: 100%;
+    }
+    &__second__left {
+      width: 300px;
+    }
+    &__second__right {
+      width: 620px;
+    }
+  
+    &__third__left {
+        width: 620px;
+      }
+      &__third__right {
+        width: 300px;
+    }
+  }
+  .foter{
+    width: 1440px;
+    margin-top: 100px;
+  }
+}
+
+
